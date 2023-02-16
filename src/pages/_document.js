@@ -6,7 +6,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-        </Head>
+          <link rel="manifest" href="/manifest.json" />
+       </Head>
         <body>
           <Main />
           <NextScript />
